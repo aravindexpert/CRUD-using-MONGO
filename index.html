@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Application</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <h1>CRUD Application</h1>
+    
+    <form id="data-form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="email" placeholder="Email">
+        <button type="submit">Create</button>
+    </form>
+    
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date</th> 
+                <th>Time</th> 
+                <th>Action</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Data from local storage will be dynamically added here -->
+        </tbody>
+    </table>
+    
+    <script src="/script.js"></script>
+    <script src="/server.js"></script>
+</body>
+</html>

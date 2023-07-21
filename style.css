@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+#submitBtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#table-body tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table-body tr:hover {
+  background-color: #e4e4e4;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.button-primary {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #45a049;
+}
+
+.button-secondary {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #d32f2f;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
